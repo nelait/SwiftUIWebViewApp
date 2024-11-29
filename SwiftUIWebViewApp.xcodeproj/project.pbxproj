@@ -1,0 +1,16 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		LastSwiftUpdateCheck = 1430;
+		LastUpgradeCheck = 1430;
+		ORGANIZATIONNAME = "";
+		TargetAttributes = {
+			DEVELOPMENT_TEAM = "";
+		};
+	};
+	rootObject = Project object;
+}

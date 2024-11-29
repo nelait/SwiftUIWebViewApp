@@ -1,0 +1,29 @@
+name: SwiftUIWebViewApp
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: 15.0
+targets:
+  SwiftUIWebViewApp:
+    type: application
+    platform: iOS
+    sources: 
+      - path: .
+        excludes:
+          - "project.yml"
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: 1
+        DEVELOPMENT_TEAM: "" # You'll need to set your development team ID here
+    info:
+      path: Info.plist
+      properties:
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UILaunchStoryboardName: ""
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
